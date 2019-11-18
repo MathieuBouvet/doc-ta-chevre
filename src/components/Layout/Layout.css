@@ -15,3 +15,25 @@
 .app-title:hover {
   text-decoration: none;
 }
+
+@media all and (min-width: 575px) {
+  .app-body {
+    margin: auto;
+    padding: 0 15px;
+  }
+}
+@media all and (min-width: 768px) {
+  .app-body {
+    max-width: 650px;
+  }
+}
+@media all and (min-width: 991px) {
+  .app-body {
+    max-width: 800px;
+  }
+}
+@media all and (min-width: 1199px) {
+  .app-body {
+    max-width: 1024px;
+  }
+}
