@@ -12,3 +12,6 @@
   color: #eaf6ff;
   font-size: 25px;
 }
+.app-title:hover {
+  text-decoration: none;
+}
