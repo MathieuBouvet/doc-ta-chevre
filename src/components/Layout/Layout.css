@@ -1,0 +1,14 @@
+.app {
+  color: #114b5f;
+}
+.app-header {
+  height: 75px;
+  background-color: #0099ff;
+  padding: 0 15px;
+  display: flex;
+  align-items: center;
+}
+.app-title {
+  color: #eaf6ff;
+  font-size: 25px;
+}
