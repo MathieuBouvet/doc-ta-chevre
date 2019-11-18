@@ -6,7 +6,7 @@ const Layout = ({ children }) => (
   <div className="app">
     <header className="app-header">
       <Link to="/" className="app-title">
-        Doc ta chevre
+        Doc ta Chèvre
       </Link>
     </header>
     <section className="app-body">{children}</section>
