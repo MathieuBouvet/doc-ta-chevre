@@ -1,3 +1,6 @@
+html {
+  overflow: auto;
+}
 .app {
   color: #114b5f;
 }
@@ -21,7 +24,7 @@
 @media all and (min-width: 0) {
   .app-body {
     margin: auto;
-    padding: 0 15px 75px 15px;
+    padding: 0 15px;
   }
 }
 @media all and (min-width: 768px) {
@@ -37,8 +40,13 @@
 @media all and (min-width: 1199px) {
   .app-body {
     max-width: 1024px;
+    padding: 0 55px;
   }
 }
 .app-footer {
   height: 75px;
+}
+
+.stupid-images {
+  height: 70vh;
 }
