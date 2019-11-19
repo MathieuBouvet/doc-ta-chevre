@@ -12,7 +12,6 @@ const Layout = ({ children }) => (
       <Menu />
     </header>
     <section className="app-body">{children}</section>
-    <section className="app-footer"></section>
   </div>
 )
 
