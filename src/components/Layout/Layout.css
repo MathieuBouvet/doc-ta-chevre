@@ -7,10 +7,12 @@
   padding: 0 15px;
   display: flex;
   align-items: center;
+  border-bottom: gray 1px solid;
 }
 .app-title {
   color: #eaf6ff;
   font-size: 25px;
+  font-weight: bolder;
 }
 .app-title:hover {
   text-decoration: none;
