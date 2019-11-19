@@ -5,13 +5,13 @@ import MenuItem from "./MenuItem"
 export default () => (
   <ul className="main-menu">
     <li>
-      <MenuItem to="/plop">plop oui</MenuItem>
+      <MenuItem to="/not-ready-yet">Features</MenuItem>
     </li>
     <li>
-      <MenuItem to="/plop2">plop2</MenuItem>
+      <MenuItem to="/not-ready-yet">Ressources</MenuItem>
     </li>
     <li>
-      <MenuItem to="/plop3">plop3et plop</MenuItem>
+      <MenuItem to="/not-ready-yet">Routes</MenuItem>
     </li>
   </ul>
 )
