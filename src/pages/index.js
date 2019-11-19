@@ -7,7 +7,13 @@ export default ({ data }) => (
   <Layout>
     <h1>Doc ta Chèvre</h1>
     <p>La DOC de l'API de l'APLI</p>
-    <Image fluid={data.file.childImageSharp.fluid} />
+    <Image
+      className="stupid-images"
+      imgStyle={{
+        objectFit: "cover",
+      }}
+      fluid={data.file.childImageSharp.fluid}
+    />
   </Layout>
 )
 export const query = graphql`
