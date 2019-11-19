@@ -7,16 +7,4 @@
 }
 .main-menu li {
   margin: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 18px;
-}
-
-.main-menu li.active {
-  border-bottom: #114b5f 2px solid;
-}
-.main-menu li.active * {
-  color: #114b5f;
-  font-weight: bold;
 }
