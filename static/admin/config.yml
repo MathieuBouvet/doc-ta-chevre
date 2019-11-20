@@ -11,3 +11,19 @@ collections:
     fields:
       - { name: title, label: Title }
       - { name: body, label: Body, widget: markdown }
+  - name: test_relations
+    label: Test Relations
+    folder: src/markdown/test-relations
+    create: true
+    fields:
+      - { name: title, label: Title }
+      - {
+          name: relation_widget,
+          label: Relation to,
+          widget: relation,
+          collection: features,
+          searchFields: [title],
+          valueField: title,
+          displayFields: [title],
+        }
+      - { name: body, label: Body, widget: markdown }
