@@ -1,5 +1,8 @@
 ---
 title: test relation
-relation_widget: First Test Feature
+relaod: false
+relatedFeatures:
+  - First Test Feature
+  - Second Test Feature
 ---
 le test des relations
