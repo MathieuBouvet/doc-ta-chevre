@@ -32,6 +32,14 @@ module.exports = {
     "gatsby-transformer-remark",
     "gatsby-plugin-netlify-cms",
     "gatsby-plugin-netlify-cache",
+    {
+      resolve: "gatsby-plugin-netlify",
+      options: {
+        headers: {
+          "/public/static/*": ["Cache-Control: public, max-age=31536000"],
+        },
+      },
+    },
   ],
   mapping: {
     "MarkdownRemark.frontmatter.relatedFeatures":
