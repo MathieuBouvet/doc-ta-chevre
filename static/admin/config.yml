@@ -7,6 +7,7 @@ collections:
   - name: features
     label: Features
     folder: src/markdown/features
+    slug: "{{slug}}"
     create: true
     fields:
       - { name: title, label: Title }
