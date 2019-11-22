@@ -32,4 +32,8 @@ module.exports = {
     "gatsby-transformer-remark",
     "gatsby-plugin-netlify-cms",
   ],
+  mapping: {
+    "MarkdownRemark.frontmatter.relatedFeatures":
+      "MarkdownRemark.frontmatter.title",
+  },
 }

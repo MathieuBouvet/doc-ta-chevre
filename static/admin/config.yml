@@ -18,7 +18,7 @@ collections:
     fields:
       - { name: title, label: Title }
       - {
-          name: relation_widget,
+          name: relatedFeatures,
           label: Relation to,
           widget: relation,
           collection: features,
