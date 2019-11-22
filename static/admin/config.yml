@@ -17,6 +17,7 @@ collections:
     create: true
     fields:
       - { name: title, label: Title }
+      - { name: relaod, label: test reload, widget: boolean }
       - {
           name: relatedFeatures,
           label: Relation to,
@@ -25,5 +26,6 @@ collections:
           searchFields: [title],
           valueField: title,
           displayFields: [title],
+          multiple: true,
         }
       - { name: body, label: Body, widget: markdown }
