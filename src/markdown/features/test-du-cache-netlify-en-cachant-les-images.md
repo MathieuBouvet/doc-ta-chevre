@@ -1,4 +1,4 @@
 ---
-title: test du cache netlify en cachant les images
+title: test du cache netlify en cachant les images (suite)
 ---
-c'était 51 s avant, et maintenant en cachant les images ?
+Les images ne sont pas régénérée mais pour 3 images ça fait pas une grande différence !
