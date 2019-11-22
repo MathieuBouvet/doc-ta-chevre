@@ -32,6 +32,12 @@ module.exports = {
     "gatsby-transformer-remark",
     "gatsby-plugin-netlify-cms",
     {
+      resolve: "gatsby-plugin-netlify-cache",
+      options: {
+        extraDirsToCache: ["/public/static"],
+      },
+    },
+    {
       resolve: "gatsby-plugin-netlify",
       options: {
         headers: {
